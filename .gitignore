@@ -1,10 +1,28 @@
+# Fichier d'aide généré par Spring Initializr
 HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
+### Fichiers de Build et Dépendances ###
+# Le dossier 'target' contient les fichiers compilés (.class) et les archives (.jar)
+# Il ne doit JAMAIS être versionné.
+/target/
+
+# Le binaire du Maven Wrapper. Le script pour le télécharger (mvnw) est conservé.
+.mvn/wrapper/maven-wrapper.jar
+
+# Fichiers de log
+*.log
+
+### Fichiers et Dossiers des IDE ###
+# Ces fichiers contiennent des configurations spécifiques à l'environnement
+# local de chaque développeur et ne doivent pas être partagés.
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# STS / Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +31,18 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+### Fichiers Système d'Exploitation ###
+# Fichiers générés par les OS
+.DS_Store
+Thumbs.db
